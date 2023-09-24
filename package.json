@@ -7,9 +7,14 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@redwoodjs/auth-dbauth-setup": "6.0.0",
     "@redwoodjs/cli-storybook": "6.0.0",
     "@redwoodjs/core": "6.0.0"
+=======
+    "@redwoodjs/auth-dbauth-setup": "6.3.1",
+    "@redwoodjs/core": "6.3.1"
+>>>>>>> 4f17151f7fffb03593f9451bf5e307676e569b3c
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
@@ -22,5 +27,5 @@
   "prisma": {
     "seed": "yarn rw exec seed"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.3"
 }
